@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Editör / IDE
+.vscode/
+.idea/
+
+# Proje verisi (kullanıcıya özel, repoya gitmemeli)
+data/*.json
+
+# data/ klasörünün kendisi git'te görünsün diye .gitkeep izlenir
+!data/.gitkeep
